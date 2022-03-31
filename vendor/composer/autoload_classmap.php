@@ -6,5 +6,16 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ComposerAutoloaderInitd08d009c13e624145856f17c606eabed' => $vendorDir . '/composer/autoload_real.php',
+    'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
+    'Composer\\Autoload\\ComposerStaticInitd08d009c13e624145856f17c606eabed' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Database' => $baseDir . '/application/database.class.php',
+    'Guest' => $baseDir . '/models/guest.class.php',
+    'GuestController' => $baseDir . '/controllers/guest_controller.class.php',
+    'GuestError' => $baseDir . '/views/error/guest_error.class.php',
+    'GuestModel' => $baseDir . '/models/guest_model.class.php',
+    'Index' => $baseDir . '/views/index/index.class.php',
+    'ShowGuest' => $baseDir . '/views/show/show_guest.class.php',
+    'SignGuest' => $baseDir . '/views/sign/sign_guest.class.php',
 );
