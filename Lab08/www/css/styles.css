@@ -1,0 +1,29 @@
+/* 
+    Document   : style
+    Created on : Mar 15, 2017, 2:34:22 PM
+    Author     : Louie Zhu
+    Description: Define styles
+*/
+
+body {
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 90%;
+    margin: 10px 20px 0px 95px;
+}
+
+table {
+    border: 1px #000 solid;
+    padding: 5px 15px;
+    background-color:#F4F4F4;
+}
+
+th {
+    font-weight: bold;
+    text-align:  left;
+    width: 150px;
+}
+
+th, td {
+    padding: 5px;
+    font-size:80%;
+}
