@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/lab08",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Logan Orender",
+      "email": "logan.d.orender@gmail.com"
+    },
+    {
+      "name": "Isaac Lowe",
+      "email": "email@example.com"
+    },
+    {
+      "name": "Evan Minor",
+      "email": "email@example.com"
+    },
+    {
+      "name": "Logan Douglass",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
