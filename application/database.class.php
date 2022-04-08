@@ -27,7 +27,7 @@ class Database
     }
 
     //static method to ensure there is just one Database instance
-    static public function getDatabase() {
+    static public function getInstance() {
         if (self::$_instance == NULL)
             self::$_instance = new Database();
         return self::$_instance;

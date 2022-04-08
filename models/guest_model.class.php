@@ -12,6 +12,7 @@ class GuestModel
     private $dbConnection;  //database connection object
 
     public function __construct() {
+
         $this->db = Database::getInstance();
         $this->dbConnection = $this->db->getConnection();
     }

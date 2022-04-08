@@ -15,6 +15,7 @@ class GuestController
 
     public function __construct(){
         //create an object of the GuestModel class
+
         $this->guest_model = new GuestModel();
         $this->index = new Index();
         $this->sign_guest = new SignGuest();
@@ -26,6 +27,7 @@ class GuestController
     }
 
     public function show(){
+
         $guests = $this->guest_model->getGuests();
 
         if (!$guests) {
