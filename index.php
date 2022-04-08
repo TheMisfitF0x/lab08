@@ -1,10 +1,10 @@
 <?php
 
 /*
- * Author: your name
- * Date: today's date
+ * Author: Logan Douglass
+ * Date: April 7, 2022
  * Name: index.php
- * Description: short description about this file
+ * Description: The main page for the guestbook website
  */
 
 //include code in vendor/autoload.php file
