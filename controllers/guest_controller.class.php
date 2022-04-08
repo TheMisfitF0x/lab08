@@ -40,8 +40,8 @@ class GuestController
         $view->display($guests);
     }
 
-    public function sign($guest){
-        $this->sign_guest->display($guest);
+    public function sign($first_name,$last_name,$birth_date,$email){
+        $this->sign_guest->display($first_name,$last_name,$birth_date,$email);
     }
 
     public function error($message){
