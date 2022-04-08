@@ -38,7 +38,7 @@ class GuestModel
                     $query_row["birth_date"],
                     $query_row["email"]);
 
-                //push the toy into the array
+                //push the guest into the array
                 $guest[] = $guest;
             }
             return $guest;
@@ -56,7 +56,7 @@ class GuestModel
             return false;
         }
 
-        //retrieve data for the new movie; data are sanitized and escaped for security.
+        //retrieve data for the new Guest; data are sanitized and escaped for security.
         $last_name = $this->dbConnection->real_escape_string(trim(filter_input(INPUT_POST, 'last_name', FILTER_SANITIZE_STRING)));
         $first_name = $this->dbConnection->real_escape_string(trim(filter_input(INPUT_POST, 'first_name', FILTER_SANITIZE_STRING)));
         $birth_date = $this->dbConnection->real_escape_string(filter_input(INPUT_POST, 'birth_date', FILTER_DEFAULT));
