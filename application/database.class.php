@@ -1,4 +1,11 @@
 <?php
+/*
+ * Author: Isaac Lowe
+ * Date: 4/8/2022
+ * File: database.class.php
+ * Description:
+ */
+
 
 class Database
 {
@@ -38,7 +45,7 @@ class Database
         return $this->objDBConnection;
     }
 
-    //returns the name of the table that stores movies
+    //returns the name of the table that stores guest
     public function getGuestTable() {
         return $this->param['tblGuest'];
     }

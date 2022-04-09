@@ -1,8 +1,8 @@
 <?php
-/**
+/*
  * Author: Isaac Lowe
  * Date: 4/8/2022
- * File: toy_model.class.php
+ * File: guest_model.class.php
  * Description:
  */
 
