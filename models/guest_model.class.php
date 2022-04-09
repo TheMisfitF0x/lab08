@@ -45,7 +45,7 @@ class GuestModel
         }
         return false;
     }
-    public function addGuest($id) {
+    public function addGuest() {
         //if the script did not received post data, display an error message and then terminite the script immediately
         if (!filter_has_var(INPUT_POST, 'last_name') ||
             !filter_has_var(INPUT_POST, 'first_name') ||

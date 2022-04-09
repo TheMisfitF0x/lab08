@@ -43,7 +43,8 @@ class GuestController
     }
 
     public function sign($first_name,$last_name,$birth_date,$email){
-        $this->sign_guest->display($first_name,$last_name,$birth_date,$email);
+        $this->guest_model->addGuest();
+        $this->sign_guest->display();
     }
 
     public function error($message){
