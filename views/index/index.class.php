@@ -14,7 +14,7 @@ class Index
                 <div id="main-header">Sign In</div>
 
 
-                <form class="new-media"  action='../../index.php?action=sign' method="post" style="border: 1px solid #bbb; margin-top: 10px; padding: 10px;">
+                <form class="new-media"  action='index.php?action=sign' method="post" style="border: 1px solid #bbb; margin-top: 10px; padding: 10px;">
                     <p><strong>First Name</strong><br>
                         <input name="first_name" type="text" size="100" value="" required autofocus></p>
                     <p><strong>Last Name</strong><br>
