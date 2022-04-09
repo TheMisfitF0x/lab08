@@ -63,7 +63,7 @@ class GuestModel
         $email = $this->dbConnection->real_escape_string(trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_STRING)));
 
         //query string for SQL insert
-        $sql = "INSERT INTO ". $this->tblGuest ." VALUES( NULL,'$last_name','$first_name','$birth_date','$email')";
+        $sql = "INSERT INTO ". $this->db->getGuestTable() ." VALUES( NULL,'$last_name','$first_name','$birth_date','$email')";
 
         //execute the query
         return $this->dbConnection->query($sql);
