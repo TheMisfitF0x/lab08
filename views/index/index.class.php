@@ -11,9 +11,10 @@ class Index
                 <title> Sign in </title>
             </head>
             <body>
-                <div id="main-header">Sign In</div>
+
 
                 <p><a href = "index.php?action=show">Show All Guests</a></p>
+                <div id="main-header">Sign In</div>
                 <form class="new-media"  action='index.php?action=sign' method="post" style="border: 1px solid #bbb; margin-top: 10px; padding: 10px;">
                     <p><strong>First Name</strong><br>
                         <input name="first_name" type="text" size="100" value="" required autofocus></p>

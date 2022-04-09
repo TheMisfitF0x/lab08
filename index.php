@@ -13,8 +13,7 @@ require_once ("vendor/autoload.php");
 //create an object of GuestController
 $guest_controller = new GuestController();
 
-//add your code below this line to complete this file
-//default action is list all toys
+//default action is index
 $action = "index";
 if (isset($_GET['action']) && !(empty($_GET['action'])))
     $action = $_GET['action'];
