@@ -29,19 +29,19 @@ class GuestModel
 
         if ($query && $query->num_rows > 0) {
             //array to store all Guests
-            $guest = array();
+            $guests = array();
 
             //loop through all rows
             while ($query_row = $query->fetch_assoc()) {
-                $toy = new Guest($query_row["last_name"],
+                $guest = new Guest($query_row["last_name"],
                     $query_row["first_name"],
                     $query_row["birth_date"],
                     $query_row["email"]);
 
                 //push the guest into the array
-                $guest[] = $guest;
+                $guests[] = $guest;
             }
-            return $guest;
+            return $guests;
         }
         return false;
     }
