@@ -1,11 +1,11 @@
 <?php
 
-/*
+/**
  * Author: Logan Douglass
  * Date: April 7, 2022
  * Name: index.php
  * Description: The main page for the guestbook website
- */
+ **/
 
 //include code in vendor/autoload.php file
 require_once ("vendor/autoload.php");
@@ -13,8 +13,7 @@ require_once ("vendor/autoload.php");
 //create an object of GuestController
 $guest_controller = new GuestController();
 
-//add your code below this line to complete this file
-//default action is list all toys
+//default action is index
 $action = "index";
 if (isset($_GET['action']) && !(empty($_GET['action'])))
     $action = $_GET['action'];

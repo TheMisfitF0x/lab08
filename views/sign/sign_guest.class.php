@@ -1,4 +1,10 @@
 <?php
+/**
+ * Author: Logan Douglass
+ * Date: April 8, 2022
+ * File Name: sign_guest.class.php
+ * Description: displays the confirmation message
+ **/
 
 class SignGuest
 {
