@@ -9,11 +9,6 @@ class Index
         <html>
             <head>
                 <title> Sign in </title>
-
-                <script>
-                    //create the JavaScript variable for the base url
-                    var base_url = "<?= BASE_URL ?>";
-                </script>
             </head>
             <body>
                 <div id="main-header">Sign In</div>
