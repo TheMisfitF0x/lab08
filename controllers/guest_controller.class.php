@@ -1,10 +1,10 @@
 <?php
-/*
+/**
  * Author: Logan Douglass
  * Date: April 7, 2022
  * File Name: guest_controller.class.php
  * Description: Controls all functions related to guests
- */
+ **/
 
 class GuestController
 {

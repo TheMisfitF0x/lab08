@@ -1,11 +1,11 @@
 <?php
 
-/*
+/**
  * Author: Logan Douglass
  * Date: April 7, 2022
  * Name: index.php
  * Description: The main page for the guestbook website
- */
+ **/
 
 //include code in vendor/autoload.php file
 require_once ("vendor/autoload.php");
