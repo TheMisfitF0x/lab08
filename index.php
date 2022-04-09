@@ -27,15 +27,7 @@ else if ($action === 'show'){
     $guest_controller->show();
 }
 else if ($action === 'sign'){
-    if (isset($_POST['first_name']) && !(empty($_POST['first_name'])))
-        $first_name = $_POST['first_name'];
-    if (isset($_POST['last_name']) && !(empty($_POST['last_name'])))
-        $last_name = $_POST['last_name'];
-    if (isset($_POST['birth_date']) && !(empty($_POST['birth_date'])))
-        $birth_date = $_POST['birth_date'];
-    if (isset($_POST['email']) && !(empty($_POST['email'])))
-        $email = $_POST['email'];
-    $guest_controller->sign($first_name,$last_name,$birth_date,$email);
+    $guest_controller->sign();
 }
 else if ($action === 'error'){
     //default error message

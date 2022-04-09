@@ -42,7 +42,7 @@ class GuestController
         $view->display($guests);
     }
 
-    public function sign($first_name,$last_name,$birth_date,$email){
+    public function sign(){
         $this->guest_model->addGuest();
         $this->sign_guest->display();
     }
